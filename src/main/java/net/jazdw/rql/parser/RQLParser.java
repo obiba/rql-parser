@@ -105,17 +105,6 @@ public class RQLParser {
 
         Matcher matcher;
         
-        // find slash delimited array patterns and convert to comma delimited with brackets
-        // e.g. quick/brown/fox  ==>  (quick,brown,fox)
-        if (query.contains("/")) {
-            matcher = SLASHED_PATTERN.matcher(query);
-            query = new RegexReplacer(matcher) {
-                public String replaceWith() {
-                    return "(" + matcher.group().replace("/", ",") + ")";
-                }
-            }.replace();
-        }
-        
         // convert simplified, "syntaxic sugar" comparison operators to normalized call syntax
         // e.g. name=john  ==>  eq(name,john)
         matcher = NORMALIZE_PATTERN.matcher(query);
