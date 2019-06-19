@@ -73,8 +73,8 @@
     </organization>
     <scm>
       <url>https://github.com/obiba/rql-parser</url>
-      <connection>scm:git@github.com:obiba/rql-parser.git</connection>
-      <developerConnection>scm:git@github.com:obiba/rql-parser.git</developerConnection>
+      <connection>scm:git:git://github.com/obiba/rql-parser.git</connection>
+      <developerConnection>scm:git:https://github.com/obiba/rql-parser.git</developerConnection>
       <tag>HEAD</tag>
     </scm>
     <distributionManagement>
