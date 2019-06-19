@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.jazdw</groupId>
     <artifactId>rql-parser</artifactId>
-    <version>0.3.3-SNAPSHOT</version>
+    <version>0.3.4-SNAPSHOT</version>
     <name>RQL Parser</name>
     <description>Resource Query Language parser</description>
     <url>https://github.com/jazdw/rql-parser</url>
@@ -74,7 +74,7 @@
       <url>https://github.com/obiba/rql-parser</url>
       <connection>scm:git:git://github.com/obiba/rql-parser.git</connection>
       <developerConnection>scm:git:https://github.com/obiba/rql-parser.git</developerConnection>
-      <tag>rql-parser-0.3.x</tag>
+      <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
